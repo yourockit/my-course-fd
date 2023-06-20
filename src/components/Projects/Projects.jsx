@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import imgPhonebook from '../../img/Phonebook.jpg';
 import imgGallery from '../../img/Gallery.jpg';
-import imgWebStudio from '../../img/Portfolio.jpg';
+import imgWebStudio from '../../img/WebStudio.jpg';
 
 const images = [
   {
@@ -89,7 +89,7 @@ export const Projects = () => {
                 >
                   <CardMedia
                     component="img"
-                    height="138"
+                    height="140"
                     image={imgUrl}
                     alt={title}
                   />
