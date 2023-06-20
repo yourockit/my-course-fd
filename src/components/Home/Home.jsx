@@ -4,7 +4,7 @@ export const HomeInfo = () => {
   return (
     <Container
       sx={{
-        height: { md: '100vh' },
+        height: { xs: '140vh', sm: '100vh' },
         display: 'flex',
         paddingTop: 10,
       }}
@@ -38,7 +38,7 @@ export const HomeInfo = () => {
           </Typography>
           <Typography align="center" variant="h5">
             HTML | CSS | SASS | JavaScript | React | Redux | Redux Toolkit |
-            TypeScript | MUI | GIT | BEM
+            TypeScript | MUI | GIT | BEM | REST API
           </Typography>
         </Box>
       </Box>

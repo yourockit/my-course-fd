@@ -29,7 +29,8 @@ const images = [
     pageUrl: 'https://yourockit.github.io/my-course-js-hw-11/',
     sourceUrl: 'https://github.com/yourockit/my-course-js-hw-11',
     title: 'Vanilla JS Gallery',
-    description: 'Used Vanilla JS, Axios.',
+    description:
+      'Simple app for search images. Used Vanilla JS, Axios, REST API',
   },
   {
     imgUrl: imgPhonebook,
@@ -37,7 +38,7 @@ const images = [
     sourceUrl: 'https://github.com/yourockit/my-course-react-hw-08-phonebook',
     title: 'REACT Phonebook',
     description:
-      'Used REACT, Redux, Redux Toolkit, Material UI, Axios and other libraries.',
+      'App with the ability to store, create, delete and edit contacts. Used REACT, Redux, Redux Toolkit, Material UI, Axios and other libraries.',
   },
 ];
 
