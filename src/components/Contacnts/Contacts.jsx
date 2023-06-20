@@ -7,6 +7,7 @@ export const Contacts = () => {
   return (
     <Container
       sx={{
+        height: '100vh',
         pt: 10,
       }}
       maxWidth="lg"

@@ -3,14 +3,28 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import { ScopedCssBaseline } from '@mui/material';
+import { ScopedCssBaseline, ThemeProvider, createTheme } from '@mui/material';
+
+const myTheme = createTheme({
+  palette: {
+    primary: {
+      main: '#373737',
+    },
+    background: {
+      paper: '#eceaed',
+      default: '#dfdde0',
+    },
+  },
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename="/my-course-fd">
-      <ScopedCssBaseline>
-        <App />
-      </ScopedCssBaseline>
+      <ThemeProvider theme={myTheme}>
+        <ScopedCssBaseline>
+          <App />
+        </ScopedCssBaseline>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

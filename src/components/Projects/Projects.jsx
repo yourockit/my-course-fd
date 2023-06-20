@@ -54,9 +54,9 @@ export const Projects = () => {
   return (
     <Container
       sx={{
-        height: '100%',
+        height: { md: '100vh' },
         pt: 10,
-        mb: 4,
+        pb: 4,
       }}
     >
       <Box
@@ -78,6 +78,7 @@ export const Projects = () => {
             ({ imgUrl, pageUrl, sourceUrl, title, description }, index) => (
               <Grid item xs={4} sm={4} md={4} key={index}>
                 <Card
+                  variant="text"
                   sx={{
                     position: 'relative',
                     maxWidth: 345,
