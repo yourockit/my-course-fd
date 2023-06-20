@@ -11,36 +11,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
-import imgPhonebook from '../../img/Phonebook.jpg';
-import imgGallery from '../../img/Gallery.jpg';
-import imgWebStudio from '../../img/WebStudio.jpg';
-
-const images = [
-  {
-    imgUrl: imgWebStudio,
-    pageUrl: 'https://yourockit.github.io/my-course/my-html-css/my-hw-8/',
-    sourceUrl:
-      'https://github.com/yourockit/my-course/tree/master/my-html-css/my-hw-8',
-    title: 'HTML/CSS WebSturio',
-    description: 'Used HTMl, CSS, SASS. Mobile First. Adaptive layout.',
-  },
-  {
-    imgUrl: imgGallery,
-    pageUrl: 'https://yourockit.github.io/my-course-js-hw-11/',
-    sourceUrl: 'https://github.com/yourockit/my-course-js-hw-11',
-    title: 'Vanilla JS Gallery',
-    description:
-      'Simple app for search images. Used Vanilla JS, Axios, REST API',
-  },
-  {
-    imgUrl: imgPhonebook,
-    pageUrl: 'https://yourockit.github.io/my-course-react-hw-08-phonebook/',
-    sourceUrl: 'https://github.com/yourockit/my-course-react-hw-08-phonebook',
-    title: 'REACT Phonebook',
-    description:
-      'App with the ability to store, create, delete and edit contacts. Used REACT, Redux, Redux Toolkit, Material UI, Axios and other libraries.',
-  },
-];
+import { images } from '../../data/dataImages';
 
 export const Projects = () => {
   const [selectedIndex, setSelectedIndex] = React.useState(null);
@@ -53,13 +24,7 @@ export const Projects = () => {
     setSelectedIndex(null);
   };
   return (
-    <Container
-      sx={{
-        height: { md: '100vh' },
-        pt: 10,
-        pb: 4,
-      }}
-    >
+    <Container sx={{ pt: 10, pb: 4 }}>
       <Box
         sx={{
           display: 'flex',
