@@ -4,7 +4,7 @@ export const HomeInfo = () => {
   return (
     <Container
       sx={{
-        height: '100vh',
+        height: { md: '100vh' },
         display: 'flex',
         paddingTop: 10,
       }}

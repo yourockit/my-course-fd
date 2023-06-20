@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const NavigationMenu = () => {
   return (
     <>
-      <Container sx={{ width: 304 }}>
+      <Container>
         <Button color="inherit" component={NavLink} to="/">
           Home
         </Button>

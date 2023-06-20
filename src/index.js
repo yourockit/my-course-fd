@@ -12,7 +12,7 @@ const myTheme = createTheme({
     },
     background: {
       paper: '#eceaed',
-      default: '#dfdde0',
+      // default: '#dfdde0',
     },
   },
 });
