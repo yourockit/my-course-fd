@@ -1,57 +1,18 @@
-import { Layout } from 'components/Layout/Layout';
-import { useEffect } from 'react';
-import { lazy } from 'react';
-import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
-import { refreshUser } from 'redux/auth/operations';
-import { PrivateRoute } from './PrivateRoute';
-import { RestrictedRoute } from './RestrictedRoute';
-import { useAuth } from 'hooks/useAuth';
-import { SkeletonAppBar } from './SkeletonAppBar/SkeletonAppBar';
+import { Layout } from './Layout/Layout';
+import { lazy } from 'react';
 
 const HomePage = lazy(() => import('../pages/Home'));
+const ProjectsPage = lazy(() => import('../pages/Projects'));
 const ContactsPage = lazy(() => import('../pages/Contacts'));
-const SignUpPage = lazy(() => import('../pages/SignUp'));
-const SignInPage = lazy(() => import('../pages/SignIn'));
 
 export const App = () => {
-  const dispatch = useDispatch();
-  const { isRefreshing } = useAuth();
-
-  useEffect(() => {
-    dispatch(refreshUser());
-  }, [dispatch]);
-
-  return isRefreshing ? (
-    <SkeletonAppBar />
-  ) : (
+  return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route
-          path="/signup"
-          element={
-            <RestrictedRoute
-              redirectTo="/contacts"
-              component={<SignUpPage />}
-            />
-          }
-        />
-        <Route
-          path="/signin"
-          element={
-            <RestrictedRoute
-              redirectTo="/contacts"
-              component={<SignInPage />}
-            />
-          }
-        />
-        <Route
-          path="/contacts"
-          element={
-            <PrivateRoute redirectTo="/signin" component={<ContactsPage />} />
-          }
-        />
+        <Route path="projects" element={<ProjectsPage />} />
+        <Route path="contacts" element={<ContactsPage />} />
       </Route>
     </Routes>
   );

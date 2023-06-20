@@ -1,19 +1,20 @@
-import { Box, Button } from '@mui/material';
+import { Button, Container } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
-export const NavigationMenu = ({ isLoggedIn }) => {
+export const NavigationMenu = () => {
   return (
     <>
-      <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+      <Container sx={{ width: 304 }}>
         <Button color="inherit" component={NavLink} to="/">
           Home
         </Button>
-        {isLoggedIn && (
-          <Button color="inherit" component={NavLink} to="/contacts">
-            Contacts
-          </Button>
-        )}
-      </Box>
+        <Button color="inherit" component={NavLink} to="/projects">
+          Projects
+        </Button>
+        <Button color="inherit" component={NavLink} to="/contacts">
+          Contacts
+        </Button>
+      </Container>
     </>
   );
 };

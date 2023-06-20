@@ -1,6 +1,6 @@
-import { HomeInfo } from '../components/HomeInfo/HomeInfo';
+import { HomeInfo } from '../components/Home/Home';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <HomeInfo />
@@ -8,4 +8,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
