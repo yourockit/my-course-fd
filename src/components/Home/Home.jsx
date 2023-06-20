@@ -20,6 +20,8 @@ export const HomeInfo = () => {
             About me
           </Typography>
           <Typography variant="h5">
+            My name is Ostriianskyi Yurii.
+            <br />
             I'm a frontend developer and this gives me pleasure.
             <br />
             I am a Computer Systems and Technology Engineer and also completed
