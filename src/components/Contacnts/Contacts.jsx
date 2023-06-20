@@ -7,9 +7,6 @@ export const Contacts = () => {
   return (
     <Container
       sx={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: { xs: 'center', md: 'start' },
         pt: 10,
       }}
       maxWidth="lg"

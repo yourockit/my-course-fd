@@ -54,7 +54,7 @@ export const Projects = () => {
   return (
     <Container
       sx={{
-        height: '100vh',
+        height: '100%',
         pt: 10,
         mb: 4,
       }}
@@ -89,7 +89,7 @@ export const Projects = () => {
                 >
                   <CardMedia
                     component="img"
-                    height="140"
+                    height="138"
                     image={imgUrl}
                     alt={title}
                   />
