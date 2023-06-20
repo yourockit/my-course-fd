@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/my-course-fd/static/css/main.5eabd365.css",
-    "main.js": "/my-course-fd/static/js/main.348990fa.js",
+    "main.js": "/my-course-fd/static/js/main.84dc0065.js",
     "static/js/242.8ca54880.chunk.js": "/my-course-fd/static/js/242.8ca54880.chunk.js",
-    "static/js/206.813d622f.chunk.js": "/my-course-fd/static/js/206.813d622f.chunk.js",
-    "static/js/105.cb688762.chunk.js": "/my-course-fd/static/js/105.cb688762.chunk.js",
+    "static/js/206.5296f3af.chunk.js": "/my-course-fd/static/js/206.5296f3af.chunk.js",
+    "static/js/105.11416f4a.chunk.js": "/my-course-fd/static/js/105.11416f4a.chunk.js",
     "static/js/190.75bbe38b.chunk.js": "/my-course-fd/static/js/190.75bbe38b.chunk.js",
     "static/js/673.e031b87f.chunk.js": "/my-course-fd/static/js/673.e031b87f.chunk.js",
     "static/media/Portfolio.jpg": "/my-course-fd/static/media/Portfolio.82740bab775750f3a5ce.jpg",
@@ -12,15 +12,15 @@
     "static/media/Phonebook.jpg": "/my-course-fd/static/media/Phonebook.7a10d9bd4df3b290a750.jpg",
     "index.html": "/my-course-fd/index.html",
     "main.5eabd365.css.map": "/my-course-fd/static/css/main.5eabd365.css.map",
-    "main.348990fa.js.map": "/my-course-fd/static/js/main.348990fa.js.map",
+    "main.84dc0065.js.map": "/my-course-fd/static/js/main.84dc0065.js.map",
     "242.8ca54880.chunk.js.map": "/my-course-fd/static/js/242.8ca54880.chunk.js.map",
-    "206.813d622f.chunk.js.map": "/my-course-fd/static/js/206.813d622f.chunk.js.map",
-    "105.cb688762.chunk.js.map": "/my-course-fd/static/js/105.cb688762.chunk.js.map",
+    "206.5296f3af.chunk.js.map": "/my-course-fd/static/js/206.5296f3af.chunk.js.map",
+    "105.11416f4a.chunk.js.map": "/my-course-fd/static/js/105.11416f4a.chunk.js.map",
     "190.75bbe38b.chunk.js.map": "/my-course-fd/static/js/190.75bbe38b.chunk.js.map",
     "673.e031b87f.chunk.js.map": "/my-course-fd/static/js/673.e031b87f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eabd365.css",
-    "static/js/main.348990fa.js"
+    "static/js/main.84dc0065.js"
   ]
 }
