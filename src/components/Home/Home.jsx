@@ -36,8 +36,8 @@ export const HomeInfo = () => {
             My skills
           </Typography>
           <Typography align="center" variant="h5">
-            HTML | CSS | SASS | JavaScript | React | Redux | Redux Toolkit |
-            TypeScript | MUI | GIT | BEM | REST_API | Adobe Photoshop
+            HTML | CSS | SASS | JavaScript | React | Redux | Redux_Toolkit |
+            TypeScript | MUI | GIT | BEM | REST_API | Adobe_Photoshop
           </Typography>
         </Box>
       </Box>
