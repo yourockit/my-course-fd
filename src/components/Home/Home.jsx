@@ -37,7 +37,7 @@ export const HomeInfo = () => {
           </Typography>
           <Typography align="center" variant="h5">
             HTML | CSS | SASS | JavaScript | React | Redux | Redux Toolkit |
-            TypeScript | MUI | GIT | BEM | REST API | Adobe Photoshop
+            TypeScript | MUI | GIT | BEM | REST_API | Adobe Photoshop
           </Typography>
         </Box>
       </Box>
