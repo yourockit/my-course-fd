@@ -49,7 +49,6 @@ export const Projects = () => {
                     position: 'relative',
                     maxWidth: 345,
                     height: 260,
-                    m: 'auto',
                   }}
                   onMouseEnter={() => handleMouseEnter(index)}
                   onMouseLeave={handleMouseLeave}
