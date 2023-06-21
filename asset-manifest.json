@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-course-fd/static/css/main.5eabd365.css",
-    "main.js": "/my-course-fd/static/js/main.a54a23a2.js",
-    "static/js/242.463215b0.chunk.js": "/my-course-fd/static/js/242.463215b0.chunk.js",
+    "main.js": "/my-course-fd/static/js/main.bb6f920a.js",
+    "static/js/242.20a5e07a.chunk.js": "/my-course-fd/static/js/242.20a5e07a.chunk.js",
     "static/js/603.6c5c6cbc.chunk.js": "/my-course-fd/static/js/603.6c5c6cbc.chunk.js",
     "static/js/278.f22a53d1.chunk.js": "/my-course-fd/static/js/278.f22a53d1.chunk.js",
     "static/js/916.8b2b7300.chunk.js": "/my-course-fd/static/js/916.8b2b7300.chunk.js",
@@ -12,8 +12,8 @@
     "static/media/Phonebook.jpg": "/my-course-fd/static/media/Phonebook.7a10d9bd4df3b290a750.jpg",
     "index.html": "/my-course-fd/index.html",
     "main.5eabd365.css.map": "/my-course-fd/static/css/main.5eabd365.css.map",
-    "main.a54a23a2.js.map": "/my-course-fd/static/js/main.a54a23a2.js.map",
-    "242.463215b0.chunk.js.map": "/my-course-fd/static/js/242.463215b0.chunk.js.map",
+    "main.bb6f920a.js.map": "/my-course-fd/static/js/main.bb6f920a.js.map",
+    "242.20a5e07a.chunk.js.map": "/my-course-fd/static/js/242.20a5e07a.chunk.js.map",
     "603.6c5c6cbc.chunk.js.map": "/my-course-fd/static/js/603.6c5c6cbc.chunk.js.map",
     "278.f22a53d1.chunk.js.map": "/my-course-fd/static/js/278.f22a53d1.chunk.js.map",
     "916.8b2b7300.chunk.js.map": "/my-course-fd/static/js/916.8b2b7300.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.5eabd365.css",
-    "static/js/main.a54a23a2.js"
+    "static/js/main.bb6f920a.js"
   ]
 }
