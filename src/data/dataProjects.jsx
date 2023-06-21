@@ -2,13 +2,13 @@ import imgPhonebook from '../img/Phonebook.jpg';
 import imgGallery from '../img/Gallery.jpg';
 import imgWebStudio from '../img/WebStudio.jpg';
 
-export const images = [
+export const projects = [
   {
     imgUrl: imgWebStudio,
     pageUrl: 'https://yourockit.github.io/my-course/my-html-css/my-hw-8/',
     sourceUrl:
       'https://github.com/yourockit/my-course/tree/master/my-html-css/my-hw-8',
-    title: 'HTML/CSS WebSturio',
+    title: 'HTML/CSS WebStudio',
     description: 'Used HTMl, CSS, SASS. Mobile First. Adaptive layout.',
   },
   {

@@ -11,7 +11,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
-import { images } from '../../data/dataImages';
+import { projects } from '../../data/dataProjects';
 
 export const Projects = () => {
   const [selectedIndex, setSelectedIndex] = React.useState(null);
@@ -40,7 +40,7 @@ export const Projects = () => {
           spacing={{ xs: 2, md: 3 }}
           columns={{ xs: 4, sm: 4, md: 12 }}
         >
-          {images.map(
+          {projects.map(
             ({ imgUrl, pageUrl, sourceUrl, title, description }, index) => (
               <Grid item xs={4} sm={4} md={4} key={index}>
                 <Card
