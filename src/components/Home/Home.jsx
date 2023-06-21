@@ -1,6 +1,6 @@
 import { Box, Container, Typography } from '@mui/material';
 
-export const HomeInfo = () => {
+export const Home = () => {
   return (
     <Container
       sx={{
