@@ -11,7 +11,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
-import { projects } from '../../data/dataProjects';
+import { projects } from '../../data/projects';
 
 export const Projects = () => {
   const [selectedIndex, setSelectedIndex] = React.useState(null);
