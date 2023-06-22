@@ -14,7 +14,7 @@ export const Home = () => {
           display: { xs: 'block', md: 'flex' },
         }}
       >
-        <Box sx={{ maxWidth: { xs: '100%', md: '50%' }, marginBottom: 4 }}>
+        <Box sx={{ maxWidth: { xs: '100%', md: '60%' }, marginBottom: 4 }}>
           <Typography variant="h4" sx={{ fontWeight: 'bold', mb: 4 }}>
             About me
           </Typography>
@@ -31,7 +31,7 @@ export const Home = () => {
             teamwork.
           </Typography>
         </Box>
-        <Box sx={{ mazWidth: { xs: '100%', md: '30%' } }}>
+        <Box sx={{ maxWidth: { xs: '100%', md: '40%' } }}>
           <Typography variant="h4" sx={{ fontWeight: 'bold', mb: 4 }}>
             My skills
           </Typography>
