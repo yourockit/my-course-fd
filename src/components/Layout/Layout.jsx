@@ -14,7 +14,7 @@ export const Layout = () => {
           top: 0,
           height: '100vh',
           width: '100vw',
-          bgcolor: '#dfdde0',
+          bgcolor: '#f7eee5',
           zIndex: '-1',
         }}
       />

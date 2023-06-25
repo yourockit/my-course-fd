@@ -11,8 +11,7 @@ const myTheme = createTheme({
       main: '#373737',
     },
     background: {
-      paper: '#eceaed',
-      default: '#dfdde0',
+      default: '#f7eee5',
     },
   },
 });
