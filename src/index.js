@@ -9,7 +9,7 @@ import { CssBaseline } from '@mui/material';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/my-course">
+    <BrowserRouter basename="/my-course-fd">
       <ThemeProvider theme={theme}>
         <CssBaseline>
           <App />
