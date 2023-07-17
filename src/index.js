@@ -1,28 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
+import { App } from 'App';
 import './index.css';
+import { theme } from './thems/theme';
 import { BrowserRouter } from 'react-router-dom';
-import { ScopedCssBaseline, ThemeProvider, createTheme } from '@mui/material';
-
-const myTheme = createTheme({
-  palette: {
-    primary: {
-      main: '#373737',
-    },
-    background: {
-      default: '#f7eee5',
-    },
-  },
-});
+import { ThemeProvider } from '@emotion/react';
+import { CssBaseline } from '@mui/material';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/my-course-fd">
-      <ThemeProvider theme={myTheme}>
-        <ScopedCssBaseline>
+    <BrowserRouter basename="/my-course">
+      <ThemeProvider theme={theme}>
+        <CssBaseline>
           <App />
-        </ScopedCssBaseline>
+        </CssBaseline>
       </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>

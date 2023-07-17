@@ -1,28 +1,36 @@
-import { Box, Container } from '@mui/material';
-import { AppBarCourse } from 'components/AppBar/AppBar';
+import { Box, Container, styled } from '@mui/material';
+import { Footer } from 'components/Footer/Footer';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
+
+const MainBox = styled(Box)(({ theme }) => ({
+  minHeight: '100vh',
+  backgroundColor: '#333',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+}));
+
+const FooterBox = styled(Box)(({ theme }) => ({
+  backgroundColor: '#111',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+}));
 
 export const Layout = () => {
   return (
     <>
-      <AppBarCourse />
-      <Box
-        sx={{
-          position: 'fixed',
-          left: 0,
-          top: 0,
-          height: '100vh',
-          width: '100vw',
-          bgcolor: '#f7eee5',
-          zIndex: '-1',
-        }}
-      />
-      <Container component="main" maxWidth="xl">
-        <Suspense fallback={null}>
-          <Outlet />
-        </Suspense>
-      </Container>
+      <MainBox component="main">
+        <Container maxWidth="xl">
+          <Suspense fallback={null}>
+            <Outlet />
+          </Suspense>
+        </Container>
+      </MainBox>
+      <FooterBox component="footer">
+        <Container maxWidth="xl">
+          <Footer />
+        </Container>
+      </FooterBox>
     </>
   );
 };
