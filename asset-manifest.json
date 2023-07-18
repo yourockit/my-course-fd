@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/my-course-fd/static/css/main.5eabd365.css",
-    "main.js": "/my-course-fd/static/js/main.9212869f.js",
-    "static/js/271.15d4d74c.chunk.js": "/my-course-fd/static/js/271.15d4d74c.chunk.js",
-    "static/js/152.a23c0289.chunk.js": "/my-course-fd/static/js/152.a23c0289.chunk.js",
+    "main.js": "/my-course-fd/static/js/main.5827a0f5.js",
+    "static/js/271.2849c797.chunk.js": "/my-course-fd/static/js/271.2849c797.chunk.js",
+    "static/js/152.35bbb252.chunk.js": "/my-course-fd/static/js/152.35bbb252.chunk.js",
     "static/js/615.9e4630ce.chunk.js": "/my-course-fd/static/js/615.9e4630ce.chunk.js",
     "static/js/244.2877c89d.chunk.js": "/my-course-fd/static/js/244.2877c89d.chunk.js",
     "static/media/WebStudio_desktop.png": "/my-course-fd/static/media/WebStudio_desktop.49f30b06927caef0fba4.png",
@@ -15,14 +15,14 @@
     "static/media/league-gothic.woff2": "/my-course-fd/static/media/league-gothic.14703619bbe4cb853c2e.woff2",
     "index.html": "/my-course-fd/index.html",
     "main.5eabd365.css.map": "/my-course-fd/static/css/main.5eabd365.css.map",
-    "main.9212869f.js.map": "/my-course-fd/static/js/main.9212869f.js.map",
-    "271.15d4d74c.chunk.js.map": "/my-course-fd/static/js/271.15d4d74c.chunk.js.map",
-    "152.a23c0289.chunk.js.map": "/my-course-fd/static/js/152.a23c0289.chunk.js.map",
+    "main.5827a0f5.js.map": "/my-course-fd/static/js/main.5827a0f5.js.map",
+    "271.2849c797.chunk.js.map": "/my-course-fd/static/js/271.2849c797.chunk.js.map",
+    "152.35bbb252.chunk.js.map": "/my-course-fd/static/js/152.35bbb252.chunk.js.map",
     "615.9e4630ce.chunk.js.map": "/my-course-fd/static/js/615.9e4630ce.chunk.js.map",
     "244.2877c89d.chunk.js.map": "/my-course-fd/static/js/244.2877c89d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eabd365.css",
-    "static/js/main.9212869f.js"
+    "static/js/main.5827a0f5.js"
   ]
 }
