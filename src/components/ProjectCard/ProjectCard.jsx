@@ -20,8 +20,8 @@ export const ProjectCard = ({ imgUrl, selectedCard, index }) => {
           <Card
             sx={{
               borderRadius: 2,
-              height: { xs: '257px', md: '402px' },
-              width: { xs: '166px', md: '260px' },
+              height: { xs: 257, md: 402 },
+              width: { xs: 166, md: 260 },
             }}
           >
             <CardMedia

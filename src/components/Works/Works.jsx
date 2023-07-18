@@ -37,6 +37,10 @@ export const Works = ({ data }) => {
     setChecked(true);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   const { title, description, pageUrl, sourceUrl, imgs } = data;
   return (
     <Container id="work" sx={{ pt: 4, pb: 6 }}>
@@ -75,19 +79,19 @@ export const Works = ({ data }) => {
                     sx={{
                       p: 2,
                       borderRadius: 4,
-                      height: { xs: '218px', md: '500px' },
-                      width: { xs: '296px', md: '680px' },
+                      width: { xs: 'calc(100vw - 72px)' },
+                      maxWidth: { xs: 296, md: 680 },
                       backgroundColor: '#ffffff',
                     }}
                   >
                     <CardMedia
+                      component="img"
                       image={img}
                       sx={{
                         borderRadius: 2,
-                        height: '100%',
-                        width: '100%',
-                        backgroundSize: 'contain',
+                        height: { xs: 186, md: 468 },
                         transform: 'rotate(2deg)',
+                        objectFit: 'contain',
                       }}
                     ></CardMedia>
                   </Card>
@@ -95,7 +99,7 @@ export const Works = ({ data }) => {
               </motion.div>
             </Container>
           ))}
-          <Stack direction="row" spacing={10} pt={6}>
+          <Stack direction="row" pt={6}>
             <motion.div
               whileHover={{ scale: [null, 1.0, 1.1] }}
               transition={{ type: 'spring' }}
@@ -106,11 +110,26 @@ export const Works = ({ data }) => {
                 fontFamily="League-gothic"
                 lineHeight={1}
                 color="secondary"
-                sx={{ textDecoration: 'none', cursor: 'pointer' }}
+                sx={{
+                  textDecoration: 'none',
+                  cursor: 'pointer',
+                }}
               >
                 PAGE
               </Link>
             </motion.div>
+            <Typography
+              variant="h1"
+              fontFamily="League-gothic"
+              lineHeight={1}
+              color="text"
+              sx={{
+                ml: { xs: 2, md: 5 },
+                mr: { xs: 2, md: 5 },
+              }}
+            >
+              |
+            </Typography>
             <motion.div
               whileHover={{ scale: [null, 1.0, 1.1] }}
               transition={{ type: 'spring' }}

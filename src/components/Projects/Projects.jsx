@@ -19,7 +19,13 @@ export const Projects = () => {
   return (
     <>
       <Grid item xs={4} sm={4} md={3} sx={{ mb: { xs: 1, sm: 10 } }}>
-        <Typography variant="h6" component="p" color="#fff" fontWeight="bold">
+        <Typography
+          variant="h6"
+          component="p"
+          color="#fff"
+          fontWeight="bold"
+          mb={2}
+        >
           MY <br />
           PROJECTS
         </Typography>
