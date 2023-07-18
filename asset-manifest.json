@@ -1,21 +1,28 @@
 {
   "files": {
     "main.css": "/my-course-fd/static/css/main.5eabd365.css",
-    "main.js": "/my-course-fd/static/js/main.26a0354a.js",
-    "static/js/115.cda14a53.chunk.js": "/my-course-fd/static/js/115.cda14a53.chunk.js",
-    "static/js/704.c5bbf267.chunk.js": "/my-course-fd/static/js/704.c5bbf267.chunk.js",
-    "static/media/WebStudio.jpg": "/my-course-fd/static/media/WebStudio.7b33a620b45624506422.jpg",
+    "main.js": "/my-course-fd/static/js/main.9212869f.js",
+    "static/js/271.15d4d74c.chunk.js": "/my-course-fd/static/js/271.15d4d74c.chunk.js",
+    "static/js/152.a23c0289.chunk.js": "/my-course-fd/static/js/152.a23c0289.chunk.js",
+    "static/js/615.9e4630ce.chunk.js": "/my-course-fd/static/js/615.9e4630ce.chunk.js",
+    "static/js/244.2877c89d.chunk.js": "/my-course-fd/static/js/244.2877c89d.chunk.js",
+    "static/media/WebStudio_desktop.png": "/my-course-fd/static/media/WebStudio_desktop.49f30b06927caef0fba4.png",
+    "static/media/WebStudio_code.jpg": "/my-course-fd/static/media/WebStudio_code.77be8c7e3ee8218d7b26.jpg",
+    "static/media/WebStudio_smart.png": "/my-course-fd/static/media/WebStudio_smart.4ed743231611aa78becc.png",
+    "static/media/WebStudio_1.jpg": "/my-course-fd/static/media/WebStudio_1.0d68d00f4f0a9aeca63c.jpg",
+    "static/media/Gallery_1.jpg": "/my-course-fd/static/media/Gallery_1.2e4a8daed61fed919a13.jpg",
     "static/media/Phonebook_1.jpg": "/my-course-fd/static/media/Phonebook_1.ca979e26cc9f525229f9.jpg",
-    "static/media/Gallery.jpg": "/my-course-fd/static/media/Gallery.86dbb041c809d955c632.jpg",
     "static/media/league-gothic.woff2": "/my-course-fd/static/media/league-gothic.14703619bbe4cb853c2e.woff2",
     "index.html": "/my-course-fd/index.html",
     "main.5eabd365.css.map": "/my-course-fd/static/css/main.5eabd365.css.map",
-    "main.26a0354a.js.map": "/my-course-fd/static/js/main.26a0354a.js.map",
-    "115.cda14a53.chunk.js.map": "/my-course-fd/static/js/115.cda14a53.chunk.js.map",
-    "704.c5bbf267.chunk.js.map": "/my-course-fd/static/js/704.c5bbf267.chunk.js.map"
+    "main.9212869f.js.map": "/my-course-fd/static/js/main.9212869f.js.map",
+    "271.15d4d74c.chunk.js.map": "/my-course-fd/static/js/271.15d4d74c.chunk.js.map",
+    "152.a23c0289.chunk.js.map": "/my-course-fd/static/js/152.a23c0289.chunk.js.map",
+    "615.9e4630ce.chunk.js.map": "/my-course-fd/static/js/615.9e4630ce.chunk.js.map",
+    "244.2877c89d.chunk.js.map": "/my-course-fd/static/js/244.2877c89d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eabd365.css",
-    "static/js/main.26a0354a.js"
+    "static/js/main.9212869f.js"
   ]
 }
