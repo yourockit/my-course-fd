@@ -1,15 +1,12 @@
 import imgPhonebook from '../img/Phonebook_1.jpg';
-import imgGallery from '../img/Gallery.jpg';
-import imgWebStudio from '../img/WebStudio.jpg';
+import imgGallery from '../img/Gallery_1.jpg';
+import imgWebStudio from '../img/WebStudio_1.jpg';
 
 export const projects = [
   {
-    imgUrl: imgWebStudio,
-    pageUrl: 'https://yourockit.github.io/my-course/my-html-css/my-hw-8/',
-    sourceUrl:
-      'https://github.com/yourockit/my-course/tree/master/my-html-css/my-hw-8',
     title: 'HTML/CSS',
-    description: 'Used HTMl, CSS, SASS. Mobile First. Adaptive layout.',
+    link: 'html-css',
+    imgUrl: imgWebStudio,
   },
   {
     imgUrl: imgGallery,

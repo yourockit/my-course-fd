@@ -1,28 +1,20 @@
 import { Box, Container, Grid, Stack, Typography, Zoom } from '@mui/material';
-import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link as Scroll } from 'react-scroll';
-import { projects } from 'data/projects';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { ProjectCard } from 'components/ProjectCard/ProjectCard';
+import { Projects } from 'components/Projects/Projects';
+import { useEffect, useState } from 'react';
 
 export const Home = () => {
   const [checked, setChecked] = useState(false);
-  const [selectedCard, setSelectedCard] = useState('null');
+
   useEffect(() => {
     setChecked(true);
   }, []);
 
-  const handleMouseEnter = index => {
-    setSelectedCard(index);
-  };
-
-  const handleMouseLeave = () => {
-    setSelectedCard('null');
-  };
   return (
-    <Container id="home" sx={{ pt: 6 }}>
-      <Zoom in={checked} {...(checked ? { timeout: 1000 } : {})}>
+    <Zoom in={checked} {...(checked ? { timeout: 1000 } : {})}>
+      <Container id="home" sx={{ pt: 6 }}>
         <Grid container columns={{ xs: 4, sm: 12, md: 12 }}>
           <Grid item xs={4} sm={12} md={12} sx={{ mb: { xs: 6, sm: 10 } }}>
             <Stack direction="row" spacing={1}>
@@ -77,55 +69,9 @@ export const Home = () => {
               and teamwork.
             </Typography>
           </Grid>
-          <Grid item xs={4} sm={4} md={3} sx={{ mb: { xs: 1, sm: 10 } }}>
-            <Typography
-              variant="h6"
-              component="p"
-              color="#fff"
-              fontWeight="bold"
-            >
-              MY <br />
-              PROJECTS
-            </Typography>
-          </Grid>
-          <Grid item xs={4} sm={8} md={9} sx={{ mb: { xs: 6, sm: 10 } }}>
-            <Stack>
-              {projects.map(({ title, imgUrl }, index) => (
-                <Box
-                  key={index}
-                  sx={{
-                    display: 'flex',
-                    position: 'relative',
-                  }}
-                >
-                  <motion.div
-                    whileHover={{ scale: [null, 1.0, 1.1] }}
-                    transition={{ type: 'spring' }}
-                  >
-                    <Typography
-                      onMouseEnter={() => handleMouseEnter(index)}
-                      onMouseLeave={handleMouseLeave}
-                      component="p"
-                      variant="h1"
-                      fontFamily="League-gothic"
-                      color="secondary"
-                      lineHeight={0.8}
-                      sx={{ display: 'inline', cursor: 'pointer' }}
-                    >
-                      {title}
-                    </Typography>
-                  </motion.div>
-                  <ProjectCard
-                    selectedCard={selectedCard}
-                    imgUrl={imgUrl}
-                    index={index}
-                  />
-                </Box>
-              ))}
-            </Stack>
-          </Grid>
+          <Projects />
         </Grid>
-      </Zoom>
-    </Container>
+      </Container>
+    </Zoom>
   );
 };

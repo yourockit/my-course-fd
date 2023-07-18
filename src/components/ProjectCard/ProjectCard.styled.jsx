@@ -11,8 +11,6 @@ export const CardContainer = styled(motion.div)`
 `;
 
 export const CardContant = styled(motion.div)`
-  /* width: 166px;
-  height: 216px; */
   position: absolute;
   top: -100px;
   right: 0;
