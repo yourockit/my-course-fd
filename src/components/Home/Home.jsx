@@ -63,8 +63,8 @@ export const Home = () => {
           <Grid item xs={4} sm={8} md={8} sx={{ mb: { xs: 6, sm: 10 } }}>
             <Typography variant="h6" component="p">
               I'm a frontend developer and this gives me pleasure. <br /> I have
-              experience with HTML | CSS | SASS | JavaScript | React | Redux |
-              Redux_Toolkit | TypeScript | MUI | GIT | BEM | REST_API |
+              experience with HTML | CSS | SASS | BEM | JavaScript | React |
+              Redux | Redux_Toolkit | TypeScript | MUI | GIT | REST_API |
               Adobe_Photoshop. I aspire to participate in commercial development
               and teamwork.
             </Typography>
