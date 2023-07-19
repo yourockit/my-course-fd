@@ -10,6 +10,6 @@ export const react = {
   pageUrl: 'https://yourockit.github.io/my-course-react-hw-08-phonebook/',
   sourceUrl: 'https://github.com/yourockit/my-course-react-hw-08-phonebook',
   description:
-    'App with the ability to store, create, delete and edit contacts. Used REACT, Redux, Redux Toolkit, Material UI, Axios and other libraries.',
+    'An application for storing, creating, editing and deleting contacts. Implemented creating, logging and delogging a user. Used REACT ROUTER, private routes, REDUX state management tool, REDUX TOOLKIT, styling with the MATERIAL UI library, etc.',
   imgs: [phone_1, phone_2, phone_3, desktop_1, desktop_2, code],
 };

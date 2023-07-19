@@ -6,6 +6,7 @@ export const js = {
   title: 'JS | Gallery',
   pageUrl: 'https://yourockit.github.io/my-course-js-hw-11/',
   sourceUrl: 'https://github.com/yourockit/my-course-js-hw-11',
-  description: 'Simple app for search images. Used Vanilla JS, Axios, REST API',
+  description:
+    'A simple Vanilla JS image search application. REST API architectural style implemented. For HTTP requests I use the AXIOS library. Demonstration of the loader (spinner) before loading images. Modularity when writing code.',
   imgs: [phone, desktop, code],
 };

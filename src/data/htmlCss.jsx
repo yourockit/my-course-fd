@@ -9,6 +9,7 @@ export const htmlCss = {
   pageUrl: 'https://yourockit.github.io/my-course/my-html-css/my-hw-8/',
   sourceUrl:
     'https://github.com/yourockit/my-course/tree/master/my-html-css/my-hw-8',
-  description: 'Used HTML, CSS, SASS. Mobile First. Adaptive layout.',
+  description:
+    'An example of a multi-page pixel-by-pixel adaptive layout. Mobile First principle. Used HTML, SASS, @mixin, SVG. Modularity when writing code. Responsive images method implemented.',
   imgs: [phone_ws, phone_pf, desktop_ws, desktop_pf, code],
 };
