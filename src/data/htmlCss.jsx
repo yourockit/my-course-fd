@@ -10,6 +10,6 @@ export const htmlCss = {
   sourceUrl:
     'https://github.com/yourockit/my-course/tree/master/my-html-css/my-hw-8',
   description:
-    'An example of a multi-page pixel-by-pixel adaptive layout. Mobile First principle. Used HTML, SASS, @mixin, SVG. Modularity when writing code. Responsive images method implemented.',
+    'An example of a multi-page pixel-by-pixel adaptive layout. Mobile First principle. Used HTML, SASS, @mixin, SVG Sprite. Modularity when writing code. Responsive images method implemented.',
   imgs: [phone_ws, phone_pf, desktop_ws, desktop_pf, code],
 };
