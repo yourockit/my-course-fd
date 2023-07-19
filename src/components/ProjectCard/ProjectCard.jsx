@@ -3,7 +3,7 @@ import { Box, Card, CardMedia } from '@mui/material';
 
 export const ProjectCard = ({ imgUrl, selectedCard, index }) => {
   return (
-    <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+    <Box sx={{ display: { xs: 'none', md: 'block' } }}>
       <CardContainer>
         <CardContant
           initial={{ opacity: 0, rotate: 0, y: 300 }}
