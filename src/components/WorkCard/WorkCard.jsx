@@ -46,7 +46,6 @@ export const WorkCard = ({ img, index }) => {
               component="img"
               image={img}
               sx={{
-                borderRadius: 2,
                 height: { xs: 186, sm: 328, md: 468 },
                 transform: 'rotate(2deg)',
                 objectFit: 'contain',
