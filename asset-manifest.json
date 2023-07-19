@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-course-fd/static/css/main.5eabd365.css",
-    "main.js": "/my-course-fd/static/js/main.34b2dbe7.js",
+    "main.js": "/my-course-fd/static/js/main.c6a0b85a.js",
     "static/js/300.cd9f3bf1.chunk.js": "/my-course-fd/static/js/300.cd9f3bf1.chunk.js",
-    "static/js/862.1e06fb57.chunk.js": "/my-course-fd/static/js/862.1e06fb57.chunk.js",
-    "static/js/122.c51a98e1.chunk.js": "/my-course-fd/static/js/122.c51a98e1.chunk.js",
-    "static/js/921.4f10d421.chunk.js": "/my-course-fd/static/js/921.4f10d421.chunk.js",
+    "static/js/862.50e21657.chunk.js": "/my-course-fd/static/js/862.50e21657.chunk.js",
+    "static/js/122.465d45bf.chunk.js": "/my-course-fd/static/js/122.465d45bf.chunk.js",
+    "static/js/921.3e9959cf.chunk.js": "/my-course-fd/static/js/921.3e9959cf.chunk.js",
     "static/js/615.9e4630ce.chunk.js": "/my-course-fd/static/js/615.9e4630ce.chunk.js",
     "static/js/244.2877c89d.chunk.js": "/my-course-fd/static/js/244.2877c89d.chunk.js",
     "static/media/Gallery_desktop.png": "/my-course-fd/static/media/Gallery_desktop.eb431d518f01e5b5613d.png",
@@ -28,16 +28,16 @@
     "static/media/league-gothic.woff2": "/my-course-fd/static/media/league-gothic.14703619bbe4cb853c2e.woff2",
     "index.html": "/my-course-fd/index.html",
     "main.5eabd365.css.map": "/my-course-fd/static/css/main.5eabd365.css.map",
-    "main.34b2dbe7.js.map": "/my-course-fd/static/js/main.34b2dbe7.js.map",
+    "main.c6a0b85a.js.map": "/my-course-fd/static/js/main.c6a0b85a.js.map",
     "300.cd9f3bf1.chunk.js.map": "/my-course-fd/static/js/300.cd9f3bf1.chunk.js.map",
-    "862.1e06fb57.chunk.js.map": "/my-course-fd/static/js/862.1e06fb57.chunk.js.map",
-    "122.c51a98e1.chunk.js.map": "/my-course-fd/static/js/122.c51a98e1.chunk.js.map",
-    "921.4f10d421.chunk.js.map": "/my-course-fd/static/js/921.4f10d421.chunk.js.map",
+    "862.50e21657.chunk.js.map": "/my-course-fd/static/js/862.50e21657.chunk.js.map",
+    "122.465d45bf.chunk.js.map": "/my-course-fd/static/js/122.465d45bf.chunk.js.map",
+    "921.3e9959cf.chunk.js.map": "/my-course-fd/static/js/921.3e9959cf.chunk.js.map",
     "615.9e4630ce.chunk.js.map": "/my-course-fd/static/js/615.9e4630ce.chunk.js.map",
     "244.2877c89d.chunk.js.map": "/my-course-fd/static/js/244.2877c89d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eabd365.css",
-    "static/js/main.34b2dbe7.js"
+    "static/js/main.c6a0b85a.js"
   ]
 }
