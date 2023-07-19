@@ -11,6 +11,7 @@ export const Footer = () => {
           </Typography>
         </Grid>
         <Grid item xs={4} sm={8} md={8}>
+          <Typography variant="h6">OSTRIIANSKYI YURII</Typography>
           <Typography variant="h6">sts2ro@gmail.com</Typography>
           <Typography variant="h6">+(420) 728 262 776</Typography>
           <Typography variant="h6">Praha, Czech Republic</Typography>
