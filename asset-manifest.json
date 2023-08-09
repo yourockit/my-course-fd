@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-course-fd/static/css/main.5eabd365.css",
-    "main.js": "/my-course-fd/static/js/main.8688d01a.js",
+    "main.js": "/my-course-fd/static/js/main.408838b3.js",
     "static/js/300.519cc601.chunk.js": "/my-course-fd/static/js/300.519cc601.chunk.js",
     "static/js/862.41516d68.chunk.js": "/my-course-fd/static/js/862.41516d68.chunk.js",
     "static/js/122.7be4f396.chunk.js": "/my-course-fd/static/js/122.7be4f396.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/league-gothic.woff2": "/my-course-fd/static/media/league-gothic.14703619bbe4cb853c2e.woff2",
     "index.html": "/my-course-fd/index.html",
     "main.5eabd365.css.map": "/my-course-fd/static/css/main.5eabd365.css.map",
-    "main.8688d01a.js.map": "/my-course-fd/static/js/main.8688d01a.js.map",
+    "main.408838b3.js.map": "/my-course-fd/static/js/main.408838b3.js.map",
     "300.519cc601.chunk.js.map": "/my-course-fd/static/js/300.519cc601.chunk.js.map",
     "862.41516d68.chunk.js.map": "/my-course-fd/static/js/862.41516d68.chunk.js.map",
     "122.7be4f396.chunk.js.map": "/my-course-fd/static/js/122.7be4f396.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.5eabd365.css",
-    "static/js/main.8688d01a.js"
+    "static/js/main.408838b3.js"
   ]
 }
